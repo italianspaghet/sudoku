@@ -1,0 +1,35 @@
+Model:
+- Sudoku Class
+    - create sudoku
+    - remove numbers
+    - check if number is correct
+    - check if sudoku is correct
+
+- Button Class
+    - create button number
+        - number
+        - position
+        - size
+        - sprite
+    - create button missing number
+        - position
+        - size
+        - sprite
+
+- Timer Class
+    - start timer
+    - stop timer if sudoku is finished
+
+View:
+- show screen
+- show buttons
+- show sudoku
+- show timer
+
+controller:
+- sudoku wird fertig erstellt
+- random zahlen werden entfernt
+- zahlen werden ausgewählt, um eingesetzt zu werden
+- bei eingeben einer zahl wird geprüft ob die zahl richtig ist (wird mit reihe und spalte und block verglichen)
+- bei fehler wird die zahl rot und fehlerpunkte werden gezählt
+- wenn alles eingesetzt ist, wird geprüft ob das sudoku richtig ist (wird mit reihe und spalte und block verglichen, NICHT mit der lösung!!!)
