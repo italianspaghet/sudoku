@@ -1,8 +1,6 @@
-import sys
-
-from pygame import *
 from screen import *
 import sys
+
 
 #------------------------------------------------------------
 # Initializing the game window
@@ -13,7 +11,7 @@ show_window()
 # Drawing the sudoku grid
 #------------------------------------------------------------
 draw_lines_sudoku()
-show_numbers()
+show_sudoku()
 #------------------------------------------------------------
 # Main loop
 #------------------------------------------------------------
