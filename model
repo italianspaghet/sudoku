@@ -1,6 +1,6 @@
 Model:
 - Sudoku Class
-    - create sudoku
+    - create sudoku X
     - remove numbers
     - check if number is correct
     - check if sudoku is correct
@@ -27,7 +27,7 @@ View:
 - show timer
 
 controller:
-- sudoku wird fertig erstellt
+- sudoku wird fertig erstellt X
 - random zahlen werden entfernt
 - zahlen werden ausgewählt, um eingesetzt zu werden
 - bei eingeben einer zahl wird geprüft ob die zahl richtig ist (wird mit reihe und spalte und block verglichen)
